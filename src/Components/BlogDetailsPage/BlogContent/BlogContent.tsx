@@ -204,8 +204,8 @@ const BlogContent = () => {
     </Tab.Content>
 
     <div className="promo-row">
-  <span>🔍 Stock Analysis Made Easy. ⚡ Access Strike For Free.</span>
-  <Buttons className="theme_btn2" btnText="Visit Home Page" />
+  <span>Kickstart Your Project With Plutohub 🚀  </span>
+  <Buttons className="theme_btn2" btnText=" Get Quote" />
 </div>
 
     </div>
