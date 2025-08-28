@@ -121,9 +121,7 @@ const BlogContent = () => {
               <h5>Mahmud Kabir</h5>
               <p className="writer-post">Co-Founder & COO</p>
               <p className="mission-text">
-                I'm on a mission to systemize creativity while embracing the
-                journey of continuous learning. Passionate about everything
-                design and creativity
+               I’m passionate about blending design with strategy to craft scalable, user-centric digital products. With a drive for continuous learning, I share insights on creativity, UX, and building impactful digital experiences.
               </p>
             </div>
           </div>

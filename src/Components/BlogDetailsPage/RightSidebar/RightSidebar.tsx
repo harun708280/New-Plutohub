@@ -14,13 +14,12 @@ const RightSidebar = () => {
           alt=""
           layout="responsive"
         />
-        <h6>Are you interested in a quoted project?</h6>
+        <h6> Let’s Design Your Success Story</h6>
         <p>
-          Start with a UI/UX design and if we’re fit for your needs without any
-          major commitment.
+           No matter the project size, we provide premium design tailored to your goals.
         </p>
         <div>
-          <Buttons btnText="Get a Quote" />
+          <Buttons btnText="Book Now" />
         </div>
       </div>
       <div className="sidebar-main-tag">
