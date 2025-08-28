@@ -14,7 +14,7 @@ const BlogPage = () => {
           { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
         ]}
-        title='PlutoHub Blog'
+        title="Plutohub's Blog"
       />
       <BlogBanner />
       <Blogs />

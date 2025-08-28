@@ -2,11 +2,29 @@
 
 import React from "react";
 import { HiArrowUp } from "react-icons/hi";
-import Link from "next/link";
 
-const Buttons = ({ btnText = "Explore more", links = "/" }) => {
+interface ButtonsProps {
+  btnText?: string;
+  links?: string;
+  className?: string; 
+}
+
+const Buttons = ({ 
+  btnText = "Explore more", 
+  links = "/", 
+  className 
+}: ButtonsProps) => {
   return (
-    <a href={links} target="_blank" className="theme_btn">{btnText} <div className="arrow_icon"><HiArrowUp/></div></a>
+    <a
+      href={links}
+      target="_blank"
+      className={className ? className : "theme_btn"}
+    >
+      {btnText}
+      <div className="arrow_icon">
+        <HiArrowUp />
+      </div>
+    </a>
   );
 };
 

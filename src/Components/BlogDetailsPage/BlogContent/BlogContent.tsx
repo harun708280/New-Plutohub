@@ -6,7 +6,8 @@ import Buttons from "../../Banner/Buttons";
 
 const BlogContent = () => {
   return (
-    <Tab.Content className="blogContent">
+    <div className="blogContentWrapper">
+      <Tab.Content className="blogContent">
       <Tab.Pane eventKey="stock">
         <span className="blog-Category">Technology</span>
         <h2>
@@ -105,27 +106,27 @@ const BlogContent = () => {
 
         <div className="blog-comment-main">
           <div className="row gx-4 gy-3 align-items-center">
-  <div className="col-12 col-md-auto text-center text-md-start">
-    <Image
-      src="/images/blog-writer.png"
-      height={150}
-      width={150}
-      alt="Author"
-      className="img-fluid rounded-circle"
-    />
-  </div>
+            <div className="col-12 col-md-auto text-center text-md-start">
+              <Image
+                src="/images/MahmudKabir.png"
+                height={150}
+                width={150}
+                alt="Author"
+                className="img-fluid rounded-circle"
+              />
+            </div>
 
-  <div className="col-12 col-md comment-author-info text-center text-md-start">
-    <span className="written-by">Written by</span>
-    <h5>Shahinul Islam</h5>
-    <p className="writer-post">Founder & CEO</p>
-    <p className="mission-text">
-      I'm on a mission to systemize creativity while embracing the
-      journey of continuous learning. Passionate about everything
-      design and creativity
-    </p>
-  </div>
-</div>
+            <div className="col-12 col-md comment-author-info text-center text-md-start">
+              <span className="written-by">Written by</span>
+              <h5>Mahmud Kabir</h5>
+              <p className="writer-post">Co-Founder & COO</p>
+              <p className="mission-text">
+                I'm on a mission to systemize creativity while embracing the
+                journey of continuous learning. Passionate about everything
+                design and creativity
+              </p>
+            </div>
+          </div>
 
           <div className=" blog-comment">
             <h4 className="reply-title">Leave a Reply</h4>
@@ -201,6 +202,13 @@ const BlogContent = () => {
         </p>
       </Tab.Pane>
     </Tab.Content>
+
+    <div className="promo-row">
+  <span>🔍 Stock Analysis Made Easy. ⚡ Access Strike For Free.</span>
+  <Buttons className="theme_btn2" btnText="Visit Home Page" />
+</div>
+
+    </div>
   );
 };
 

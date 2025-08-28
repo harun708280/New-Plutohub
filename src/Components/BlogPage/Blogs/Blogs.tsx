@@ -89,11 +89,13 @@ const Blogs: React.FC = () => {
 
   // Categories for the filter
   const categories: string[] = [
-    "UX Design",
-    "Technology",
-    "Web Design ",
-    "Mobile App Design",
-    "Design System",
+    "UI/UX Design",
+    "Apps Design",
+    "SaaS",
+    "AI Product",
+    "Webflow ",
+    "WordPress",
+    "Shopify ",
   ];
 
   // State to manage the filtered items
