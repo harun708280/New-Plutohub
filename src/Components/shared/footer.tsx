@@ -23,16 +23,16 @@ const Footer = () => {
                   leaders. <strong>Lets discuss</strong>
                 </h2>
                 <div className="social-links">
-                  <a href="">
+                  <a href="https://www.facebook.com/p/PlutoHub-61569889000814/" target="_blank" rel="noopener noreferrer">
                     <Facebook color="white" />
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/plutohub.agency/" target="_blank" rel="noopener noreferrer">
                     <Instagram color="white" />
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/company/105067253" target="_blank" rel="noopener noreferrer">
                     <Linkedin color="white" />
                   </a>
-                  <a href="">
+                  <a href="https://x.com/PlutohubAgency" target="_blank" rel="noopener noreferrer">
                     <Twitter color="white" />
                   </a>
                 </div>
@@ -116,7 +116,8 @@ const Footer = () => {
                 <div className="middle-footer-box-content">
                   <h4>USA</h4>
                   <p>
-                    750 W Dimond Blvd Ste 103 #204 <br/> Anchorage <br/> Alaska 99515 <br/>
+                    750 W Dimond Blvd Ste 103 #204 <br /> Anchorage <br />{" "}
+                    Alaska 99515 <br />
                     United State
                   </p>
                   <a
@@ -138,7 +139,9 @@ const Footer = () => {
                 />
                 <div className="middle-footer-box-content">
                   <h4>Portugal</h4>
-                  <p>R. Das Pedralvas 5 A <br/> 1500-487 <br/> Lisboa</p>
+                  <p>
+                    R. Das Pedralvas 5 A <br /> 1500-487 <br /> Lisboa
+                  </p>
                   <a href="tel:++351937296113">+351937296113</a>
                 </div>
               </div>
