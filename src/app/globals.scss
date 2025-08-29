@@ -2235,7 +2235,7 @@ h2.accordion-header button span {
   font-weight: 600;
   color: black;;
   background:white;
-  padding: 8px 8px 8px 10px;
+  padding: 3px 10px 3px 10px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -3875,11 +3875,13 @@ font-size: 20px;
 .promo-row {
    position: sticky; 
   bottom: 20px;
+ 
   
-  margin-left:20px;
-  margin-right:20px;
+  margin-left: auto;
+  margin-right: auto;
 
   margin-top:20px;
+  width:70%;
   
   
   display: flex;
@@ -3893,7 +3895,10 @@ font-size: 20px;
   border-radius: 60px;
  
 
-  padding: 7px 7px 7px 11px ; 
+  padding-top:5px; 
+  padding-bottom:5px; 
+  padding-right:5px; 
+  padding-left:15px; 
   gap: 10px;
 
   opacity: 1;
@@ -3903,6 +3908,26 @@ font-size: 20px;
   color: #fff; 
   font-size: 14px;
   font-weight: 500;
+}
+
+.social-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; 
+  
+  margin-top: 20px;
+  opacity: 1;
+  border-radius: 24px;
+  padding: 16px;
+  background: rgba(44, 44, 44, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(34px);
+}
+
+
+.social-row a:hover {
+  transform: scale(1.1);
 }
 
 
